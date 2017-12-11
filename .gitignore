@@ -1,2 +1,4 @@
 data/
-AdditionalFiles/
+.idea/
+.ipynb_checkpoints/
+*.pyc
