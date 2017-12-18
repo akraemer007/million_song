@@ -2,11 +2,13 @@
 
 ## Summary
 
-Music is part of our daily lives. We listen to it when we work out. We listen to it when we're sad. This project attempts to predict what type of popular music is listened to based on external factors. If the stock market is up, are people attracted to happy music? Conversely, if the stock market is down, do people stay indoors and listen to The Cure and Morrissey on repeat?
+Music is part of our daily lives. We listen to it when we work out. We listen to it when we're sad. This project attempts to predict what type of popular music is listened to based on external factors. For instance, if the stock market is up, are the top Billboard hits happy songs? Conversely, if the stock market is down, do people stay indoors and listen to The Cure and Morrissey on repeat?
 
 ## Impact:
 
-While there are many examples of machine learning in the music industry, most examples center around recommender systems based on user preferences and associating similar artists. This project instead focuses on using music as an indicator of public sentiment. The sentiment score could be used as general indicator. Correlations to outside factors -- such as the stock market -- can inform marketing of new songs.
+While there are many examples of machine learning in the music industry, most examples center around recommender systems based on user preferences and associating similar artists. This project instead focuses on using music as an indicator of public sentiment. The sentiment score could be used as general happiness indicator.
+
+A successful score could also be used to aid in the marketing efforts of large music labels. Correlations to outside factors -- such as the stock market -- can inform marketing of new songs.
 
 ## Next steps:
 
@@ -41,15 +43,3 @@ Failing to find correlation between the stock market and music sentiment score w
 ## Potential Expansions
 
 I am starting with the stock market, but I could expand to other measures. There are several macroeconomic indexes to leverage. Furthermore, there are many big events that happen, which would be interesting to investigate, such as the election and 9/11.
-
-
-
-
-
-
-
-
-
-
-
--
