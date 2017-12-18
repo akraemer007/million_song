@@ -6,11 +6,17 @@ Music is part of our daily lives. We listen to it when we work out. We listen to
 
 ## Impact:
 
-While there are many examples of machine learning in the music industry, most examples center around recommender systems based on user preferences and associating similar artists. This project instead focuses on using music as an indicator of public sentiment.
+While there are many examples of machine learning in the music industry, most examples center around recommender systems based on user preferences and associating similar artists. This project instead focuses on using music as an indicator of public sentiment. The sentiment score could be used as general indicator. Correlations to outside factors -- such as the stock market -- can inform marketing of new songs.
 
-## Process:
+## Next steps:
 
-
+- Join datasets together
+  - Not all songs have unique identifiers
+- Create a Song Sentiment score using The Million Song Dataset and the MusixMatch lyrics dataset
+- Explore relationship between stock market and Song Sentiment scores
+- Define how to define a "Peak" for both scores
+- Learn what time series is
+- Run Time series model
 
 ## Data:
 
@@ -22,9 +28,19 @@ While there are many examples of machine learning in the music industry, most ex
 | [S&P 500](https://finance.yahoo.com/quote/%5EGSPC/history?p=%5EGSPC)                      | Weekly market highs and lows of S&P 500 going back to 1950 | CSV                                  | [Yes](https://github.com/akraemer007/million_song/blob/master/support_files/data_snapshots/snp500_data.png)          |
 
 ## Potential Roadblocks
-- Failing to create reliable music sentiment score
-- Failing to find correlation between the stock market and music sentiment score
-- Matching billboard top tracks to Million Song Dataset
+
+#### Data issues:
+
+I'm starting with four different data sources. It is possible that joining them may severely limit my dataset. For example, two important datasets -- Billboard and Million Song Dataset -- don't have keys to join them together. I will need to join on track strings. If my data has larger holes than I anticipate, I will pivot from the Million Song Dataset to scraping using the Spotify API.
+
+#### Modeling issues:
+
+I have never created a sentiment score. It is entirely possible I end up making a score that does not reflect reality. If this is the case, I can resort to other other scores that already exist.
+Failing to find correlation between the stock market and music sentiment score would be unfortunate.
+
+## Potential Expansions
+
+I am starting with the stock market, but I could expand to other measures. There are several macroeconomic indexes to leverage. Furthermore, there are many big events that happen, which would be interesting to investigate, such as the election and 9/11.
 
 
 
