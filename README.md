@@ -1,23 +1,16 @@
-# million_song
-How does the stock market impact our lives? If the market is up, does the music we listen to become happier? If the market is down do we listen to The Cure on repeat? This analysis combines multiple data sets and a time series algorithm to find the answer.
-
-
-
-
 # What Exactly Are We Turning Down for Again?
 
 ## Summary
-How does the stock market impact our lives? If the market is up, does the music we listen to become happier? If the market is down do we listen to The Cure on repeat? This analysis combines multiple data sets and a time series algorithm to find the answer.
 
-## Similar Projects:
-
-
+Music is part of our daily lives. We listen to it when we work out. We listen to it when we're sad. This project attempts to predict what type of popular music is listened to based on external factors. If the stock market is up, are people attracted to happy music? Conversely, if the stock market is down, do people stay indoors and listen to The Cure and Morrissey on repeat?
 
 ## Impact:
 
-There are many examples of machine learning in the music industry. Companies such as Spotify and Pandora use have created sophisticated recommender systems based on user preferences. 
+While there are many examples of machine learning in the music industry, most examples center around recommender systems based on user preferences and associating similar artists. This project instead focuses on using music as an indicator of public sentiment.
 
-This project instead focuses on using music as an indicator of public sentiment.
+## Process:
+
+
 
 ## Data:
 
@@ -28,31 +21,19 @@ This project instead focuses on using music as an indicator of public sentiment.
 | [Billboard](http://www.umdmusic.com/default.asp?Lang=English&Chart=D)                     | Billboard Top 20 List going back to 1949                   | CSV                                  | Yes          |
 | [S&P 500](https://finance.yahoo.com/quote/%5EGSPC/history?p=%5EGSPC)                      | Weekly market highs and lows of S&P 500 going back to 1950 | CSV                                  | Yes          |
 
-
-#### A good project has the following properties:
-* Follows a recognized workflow such as CRISP-DM (20/100):
-  * Answers a well-posed business problem or research question
-  * Uses appropriate data:  i.e., the question and data are compatible
-  * Uses a suitable methodology
-  * Evaluates the methodology
-  * Should be reproducible
-* Business/Research Question (20/100):
-  * Appropriate scope
-  * Does it have the appropriate level of difficulty for a two week problem
-  * Does the student have suitable data to answer their question?  If not, can they obtain this data?
-  * If the problem could not be solved with ‘ideal’ data, it should be rejected
-* Data:
-
-* Model (20/100) - If model is used
-
-* Evaluation (20/100) - If model is used
+## Potential Roadblocks
+- Failing to create reliable music sentiment score
+- Failing to find correlation between the stock market and music sentiment score
+- Matching billboard top tracks to Million Song Dataset
 
 
 
 
-- Consumer confidence
-- News
-- 9/11 elections
 
-Books being sold
-Movies being
+
+
+
+
+
+
+-
