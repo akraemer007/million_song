@@ -16,10 +16,10 @@ While there are many examples of machine learning in the music industry, most ex
 
 | Source                                                                                    | Description                                                | Format                               | Data Acquired |
 |-------------------------------------------------------------------------------------------|------------------------------------------------------------|--------------------------------------|--------------|
-| [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset) | Large, detailed dataset of one million songs.              | SQLite DB (summary), HDF5 (detailed) | Yes          |
-| [MusixMatch Lyrics](https://labrosa.ee.columbia.edu/millionsong/musixmatch)               | Lyrics of 237,622 songs which map to MSD dataset           | SQLite DB (bag of words)             | Yes          |
-| [Billboard](http://www.umdmusic.com/default.asp?Lang=English&Chart=D)                     | Billboard Top 20 List going back to 1949                   | CSV                                  | Yes          |
-| [S&P 500](https://finance.yahoo.com/quote/%5EGSPC/history?p=%5EGSPC)                      | Weekly market highs and lows of S&P 500 going back to 1950 | CSV                                  | Yes          |
+| [Million Song Dataset](https://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset) | Large, detailed dataset of one million songs.              | SQLite DB (summary), HDF5 (detailed) | [Yes](https://github.com/akraemer007/million_song/blob/master/support_files/data_snapshots/msd_data.png)          |
+| [MusixMatch Lyrics](https://labrosa.ee.columbia.edu/millionsong/musixmatch)               | Lyrics of 237,622 songs which map to MSD dataset           | SQLite DB (bag of words)             | [Yes](https://github.com/akraemer007/million_song/blob/master/support_files/data_snapshots/lyric_data.png)          |
+| [Billboard](http://www.umdmusic.com/default.asp?Lang=English&Chart=D)                     | Billboard Top 20 List going back to 1949                   | CSV                                  | [Yes](https://github.com/akraemer007/million_song/blob/master/support_files/data_snapshots/billboard_data.png)          |
+| [S&P 500](https://finance.yahoo.com/quote/%5EGSPC/history?p=%5EGSPC)                      | Weekly market highs and lows of S&P 500 going back to 1950 | CSV                                  | [Yes](https://github.com/akraemer007/million_song/blob/master/support_files/data_snapshots/snp500_data.png)          |
 
 ## Potential Roadblocks
 - Failing to create reliable music sentiment score
