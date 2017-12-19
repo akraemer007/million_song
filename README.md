@@ -10,6 +10,10 @@ While there are many examples of machine learning in the music industry, most ex
 
 A successful score could also be used to aid in the marketing efforts of large music labels. Correlations to outside factors -- such as the stock market -- can inform marketing of new songs.
 
+## Work in space
+[50 Years of Pop Music](http://kaylinwalker.com/50-years-of-pop-music/)
+[Billboard Volatility](http://decibelsanddecimals.com/dbdblog/2017/1/8/billboard-volatility.html)
+
 ## Next steps:
 
 - Join datasets together
