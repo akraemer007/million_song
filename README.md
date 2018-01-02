@@ -13,7 +13,7 @@ A successful score could also be used to aid in the marketing efforts of large m
 ## Work in space
 [50 Years of Pop Music](http://kaylinwalker.com/50-years-of-pop-music/)
 [Billboard Volatility](http://decibelsanddecimals.com/dbdblog/2017/1/8/billboard-volatility.html)
-
+[Blue Christmas: A data-driven search for the most depressing Christmas song](https://caitlinhudon.com/2017/12/22/blue-christmas/)
 ## Next steps:
 
 - Join datasets together
